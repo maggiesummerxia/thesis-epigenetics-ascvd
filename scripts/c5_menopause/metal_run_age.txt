@@ -1,0 +1,26 @@
+SCHEME SAMPLESIZE
+AVERAGEFREQ OFF
+MINMAXFREQ OFF
+GENOMICCONTROL OFF
+
+MARKER MARKER
+PVALUE PVAL
+WEIGHT N
+
+PROCESS data/age_TWINSUK.txt
+PROCESS data/age_NSHD1.txt
+PROCESS data/age_NSHD2.txt
+PROCESS data/age_NSHD3.txt
+PROCESS data/age_NCDS.txt
+PROCESS data/age_GS1.txt
+PROCESS data/age_GS2.txt
+PROCESS data/age_EPICNORFOLK.txt
+PROCESS data/age_FHS.txt
+PROCESS data/age_WHI.txt
+PROCESS data/age_KORA.txt
+PROCESS data/age_ROTTERDAM.txt
+
+OUTFILE results/metal_results_age .tbl
+
+ANALYZE
+QUIT
